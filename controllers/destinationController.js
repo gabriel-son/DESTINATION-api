@@ -1,6 +1,6 @@
-const Destination = require('./../models/destinationModel');
-const catchAsync = require('./../utils/catchAsync');
-const APIFeatures = require('./../utils/apiFeatures');
+const Destination = require('../models/destinationModel');
+const catchAsync = require('../utils/catchAsync');
+const APIFeatures = require('../utils/apiFeatures');
 
 exports.aliasTopDestinations = (req, res, next) => {
   req.query.limit = '5';

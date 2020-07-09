@@ -1,5 +1,5 @@
-const express = require('express');
-const morgan = require('morgan');
+const express = require('./node_modules/express');
+const morgan = require('./node_modules/morgan');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');

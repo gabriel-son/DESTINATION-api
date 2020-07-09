@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
-    "dev": "nodemon ./src/server.js",
-    "start": "node ./src/server.js"
+    "dev": "nodemon -r dotenv/config server.js dotenv_config_path=./.env",
+    "start": "node -r dotenv/config server.js"
   },
   "repository": {
     "type": "git",
