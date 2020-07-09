@@ -1,0 +1,48 @@
+{
+  "name": "destination-api",
+  "version": "1.0.0",
+  "description": "api for destination details ",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-son/DESTINATION-api.git"
+  },
+  "author": "Chia Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-son/DESTINATION-api/issues"
+  },
+  "homepage": "https://github.com/gabriel-son/DESTINATION-api#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
+    "express-mongo-sanitize": "^1.3.2",
+    "express-rate-limit": "^3.5.0",
+    "hpp": "^0.2.2",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.17.0"
+  },
+  "engines": {
+    "node": "^10"
+  }
+}
